@@ -48,6 +48,15 @@ Names use:
 
 ---
 
+## Links
+
+- [Projects — `project-proj/`](https://github.com/ITechDummvry5/project-proj)
+- [Clones — `clone-cln/`](https://github.com/ITechDummvry5/clone-cln)
+- [Learning — `learn-lrn/`](https://github.com/ITechDummvry5/learn-lrn)
+- [Experiments — `experiment-exp/`](https://github.com/ITechDummvry5/experiment-exp)
+- [Tools — `tools-tool/`](https://github.com/ITechDummvry5/tools-tool)
+- [Templates — `template-tpl/`](https://github.com/ITechDummvry5/template-tpl)
+
 ## Documentation
 
 Detailed organization and folder structures:
