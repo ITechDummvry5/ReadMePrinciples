@@ -58,7 +58,7 @@ Detailed organization and folder structures:
 
 Deployment information for projects hosted through Vercel:
 
-**[`vercel.md`](vercel-deploy.md)**
+**[`vercel-deploy.md`](vercel-deploy.md)**
 
 ---
 
