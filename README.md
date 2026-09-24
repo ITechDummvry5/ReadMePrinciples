@@ -29,7 +29,8 @@ The repository uses a consistent naming convention and category-based organizati
 All folders follow:
 
 ```text
-[number]-category-what-it-is
+[number]-category-[name]
+[number]-[topic]
 ````
 
 Example:
@@ -75,7 +76,7 @@ This way:
 ```text
 README.md   → What this repository is
 table.md    → Full naming + folder structure
-vercel.md   → Vercel deployment information
+vercel.md   → Vercel deployment information open for the public
 ````
 
 Much cleaner than putting all the detailed folder structures inside the main README.
