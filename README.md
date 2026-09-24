@@ -13,14 +13,14 @@ The repository uses a consistent naming convention and category-based organizati
 
 ## Categories
 
-| Category | Root Folder | Prefix | Purpose |
-|---|---|---|---|
-| Projects | `project-proj/` | `proj-` | Main development projects |
-| Clones | `clone-cln/` | `cln-` | Recreations of existing projects |
-| Learning | `learning-lrn/` | `lrn-` | Learning and practice projects |
-| Experiments | `experiment-exp/` | `exp-` | Tests, prototypes, and ideas |
-| Tools | `tools-tool/` | `tool-` | Utilities and developer tools |
-| Templates | `template-tpl/` | `tpl-` | Reusable starters and boilerplates |
+| Category    | Root Folder       | Prefix  | Purpose                            |
+| ----------- | ----------------- | ------- | ---------------------------------- |
+| Projects    | `project-proj/`   | `proj-` | Main development projects          |
+| Clones      | `clone-cln/`      | `cln-`  | Recreations of existing projects   |
+| Learning    | `learn-lrn/`      | `lrn-`  | Learning and practice projects     |
+| Experiments | `experiment-exp/` | `exp-`  | Tests, prototypes, and ideas       |
+| Tools       | `tools-tool/`     | `tool-` | Utilities and developer tools      |
+| Templates   | `template-tpl/`   | `tpl-`  | Reusable starters and boilerplates |
 
 ---
 
