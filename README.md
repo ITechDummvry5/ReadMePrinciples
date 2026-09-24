@@ -19,6 +19,8 @@ The repository uses a consistent naming convention and category-based organizati
 | Tools       | `tools-tool/`      | `tool-` | Utilities and developer tools      |
 | Templates   | `template-tpl/`    | `tpl-`  | Reusable starters and boilerplates |
 
+
+````
 ## Naming Convention
 
 All folders follow:
@@ -26,7 +28,7 @@ All folders follow:
 ```text
 [number]-category-[name]
 [number]-[topic]
-````
+```
 
 Example:
 
@@ -77,7 +79,6 @@ This repository serves as a personal development codebase for organizing project
 
 This way:
 
-```text
 README.md   → What this repository is
 table.md    → Full naming + folder structure
 vercel.md   → Vercel deployment information open for the public
