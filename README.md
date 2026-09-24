@@ -1,6 +1,3 @@
-Ahh, got you. You want the **main `README.md` to be short** — just an overview of the codebase and the category system. The detailed structures stay in `table.md`, and Vercel information stays in `vercel.md`.
-
-Here is a cleaner base:
 
 ````md
 # Charles Codebase
