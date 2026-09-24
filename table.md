@@ -23,6 +23,7 @@ Format: `[number]-category-what-it-is`, all lowercase kebab-case.
 
 ### Root
 
+```text
 project-proj/
 │
 ├── README.md
@@ -31,9 +32,11 @@ project-proj/
 ├── 02-proj-banadero-management/
 ├── 03-proj-scholarship-finder/
 └── ...
+```
 
 ### Each Projects
 
+```text
 [number]-proj-[name]/
 │
 ├── README.md
@@ -64,6 +67,7 @@ project-proj/
 │       └── modules/
 │
 └── ...
+```
 
 
 
@@ -73,6 +77,7 @@ project-proj/
 
 ### Root
 
+```text
 clone-cln/
 │
 ├── README.md
@@ -81,9 +86,11 @@ clone-cln/
 ├── 02-netflix/
 ├── 03-spotify/
 └── ...
+```
 
 ### Each Clones
 
+```text
 [number]-cln-[name]/
 │
 ├── README.md
@@ -115,6 +122,7 @@ clone-cln/
 │       └── modules/
 │
 └──  ...
+```
 
 
 
@@ -124,6 +132,7 @@ clone-cln/
 
 ### Root
 
+```text
 learn-lrn/
 │
 ├── README.md
@@ -134,9 +143,11 @@ learn-lrn/
 ├── 02-lrn-css/
 ├── 03-lrn-html/
 └── ...
+```
 
 ### Each Learning Project
 
+```text
 [number]-lrn-[technology]/
 │
 ├── README.md
@@ -159,6 +170,7 @@ learn-lrn/
 ├── 03-[topic]/
 │
 └── ...
+```
 
 
 
@@ -168,6 +180,7 @@ learn-lrn/
 
 ### Root
 
+```text
 experiment-exp/
 │
 ├── README.md
@@ -176,9 +189,11 @@ experiment-exp/
 ├── 02-exp-ui-animation/
 ├── 03-exp-database/
 └── ...
+```
 
 ### Each Experiment
 
+```text
 [number]-exp-[name]/
 │
 ├── README.md
@@ -198,6 +213,7 @@ experiment-exp/
 │       └── script.js
 │
 └── ...
+```
 
 
 
@@ -207,6 +223,7 @@ experiment-exp/
 
 ### Root
 
+```text
 tools-tool/
 │
 ├── README.md
@@ -215,9 +232,11 @@ tools-tool/
 ├── 02-tool-file-renamer/
 ├── 03-tool-json-formatter/
 └── ...
+```
 
 ### Each Tool
 
+```text
 01-tool-[name]/
 │
 ├── README.md
@@ -237,6 +256,8 @@ tools-tool/
 │       └── script.js
 │
 └── ...
+```
+
 
 
 * **Templates** — Reusable starter projects, layouts, components, or boilerplates.
@@ -245,6 +266,7 @@ tools-tool/
 
 ### Root
 
+```text
 template-tpl/
 │
 ├── README.md
@@ -253,9 +275,11 @@ template-tpl/
 ├── 02-tpl-landing-page/
 ├── 03-tpl-orbit-slider/
 └── ...
+```
 
 ### Each Template
 
+```text
 [number]-tpl-[name]/
 │
 ├── README.md
@@ -281,4 +305,4 @@ template-tpl/
 │       └── script.js
 │
 └── ...
-
+```
