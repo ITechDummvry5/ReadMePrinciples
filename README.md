@@ -65,6 +65,10 @@ Detailed organization and folder structures:
 
 **[`table.md`](table.md)**
 
+Project creation boilerplate and setup commands
+
+**[`boiler.md`](boiler.md)**
+
 Deployment information for projects hosted through Vercel:
 
 **[`vercel-deploy.md`](vercel-deploy.md)**

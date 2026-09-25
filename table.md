@@ -14,9 +14,6 @@ Format: `[number]-category-what-it-is`, all lowercase kebab-case.
 
 
 
-
-
-
 * **Projects** — Complete or ongoing applications and larger development projects.
 
   Example: `01-proj-ecommerce` 
