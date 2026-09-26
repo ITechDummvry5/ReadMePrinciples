@@ -37,6 +37,8 @@ touch 01-cln-name/src/js/script.js
 
 ### Learning
 
+#### Technical Learning
+
 ```bash
 cd learning-lrn
 
@@ -48,6 +50,13 @@ touch 01-lrn-technology/src/css/style.css
 touch 01-lrn-technology/src/js/script.js
 ```
 
+### Reference Learning
+
+```bash
+cd learning-lrn
+mkdir -p 01-ref-lrn-name
+touch 01-ref-lrn-name/{README.md,notes.md,index.html}
+```
 ### Experiments
 
 ```bash
