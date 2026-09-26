@@ -133,8 +133,6 @@ clone-cln/
 learn-lrn/
 │
 ├── README.md
-├── terminologies-[technology].md
-├── design-pattern-[technology].md
 │
 ├── 01-lrn-javascript/
 ├── 02-lrn-css/
@@ -169,6 +167,14 @@ learn-lrn/
 └── ...
 ```
 
+### Each Reference Learning Project
+
+```text
+[number]-ref-lrn-[name]/
+│
+├── README.md
+├── notes.md
+└── index.html
 
 
 * **Experiments** — Small tests, prototypes, and ideas used to explore a concept or technology.
