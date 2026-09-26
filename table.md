@@ -279,27 +279,10 @@ template-tpl/
 ```text
 [number]-tpl-[name]/
 │
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── docs/
-│   ├── overview.md
-│   ├── setup.md
-│   └── usage.md
-│
-├── src/
-│   ├── index.html
-│   ├── assets/
-│   │   ├── images/
-│   │   ├── icons/
-│   │   └── fonts/
-│   │
-│   ├── css/
-│   │   └── style.css
-│   │
-│   └── js/
-│       └── script.js
-│
-└── ...
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── img/
 ```
