@@ -9,6 +9,7 @@ Standard boilerplate commands for creating projects inside each repository categ
 Use the appropriate command to enter the category folder before creating a project.
 
 ### Projects
+````
 
 ```bash
 cd project-proj

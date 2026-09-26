@@ -16,7 +16,7 @@ The repository uses a consistent naming convention and category-based organizati
 | Clones      | `clone-cln/`       | `cln-`  | Recreations of existing projects   |
 | Learning    | `learn-lrn/`       | `lrn-`  | Learning and practice projects     |
 | Experiments | `experiment-exp/`  | `exp-`  | Tests, prototypes, and ideas       |
-| Tools       | `tools-tool/`      | `tool-` | Utilities and developer tools      |
+| Tools       | `tools-tool/`      | `tool-` | Developer tools                    |
 | Templates   | `template-tpl/`    | `tpl-`  | Reusable starters and boilerplates |
 
 

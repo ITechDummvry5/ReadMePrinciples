@@ -8,7 +8,7 @@ Format: `[number]-category-what-it-is`, all lowercase kebab-case.
 | Clones      | `clone-cln/`      | `cln-`  | `[number]-cln-[name]`       | Recreation of existing projects |
 | Learning    | `learning-lrn/`   | `lrn-`  | `[number]-lrn-[technology]` | Learning and practice projects  |
 | Experiments | `experiment-exp/` | `exp-`  | `[number]-exp-[name]`       | Testing ideas and concepts      |
-| Tools       | `tools-tool/`     | `tool-` | `[number]-tool-[name]`      | Useful utilities and scripts    |
+| Tools       | `tools-tool/`     | `tool-` | `[number]-tool-[name]`      | Useful tools and scripts        |
 | Templates   | `template-tpl/`   | `tpl-`  | `[number]-tpl-[name]`       | Reusable starter projects       |
 
 
