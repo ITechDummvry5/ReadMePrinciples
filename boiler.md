@@ -79,10 +79,6 @@ touch 01-tool-name/src/js/script.js
 ```bash
 cd template-tpl
 
-mkdir -p 01-tpl-name/{docs,src/css,src/js}
-touch 01-tpl-name/{README.md,LICENSE,.gitignore}
-touch 01-tpl-name/docs/{overview.md,setup.md,usage.md}
-touch 01-tpl-name/src/index.html
-touch 01-tpl-name/src/css/style.css
-touch 01-tpl-name/src/js/script.js
+mkdir -p 01-tpl-name/{css,js,img}
+touch 01-tpl-name/{index.html,css/style.css,js/script.js}
 ```
