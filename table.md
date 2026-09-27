@@ -1,22 +1,30 @@
-## Naming convention
+Got it — since this is **`table.md`**, not a README, it should be focused purely on the **naming and structure reference tables**, without README-style explanations.
 
-Format: `[number]-category-what-it-is`, all lowercase kebab-case.
+The main thing I would fix is the **Reference Learning section**: it should use `[technology]`, not `[name]`, because `ref-lrn-` is specifically for technologies like Git, Linux, Docker, SQL, and Bash.
 
-| Category    | Root Folder       | Prefix  | Pattern                     | Description                     |
-| ----------- | ----------------- | ------- | --------------------------- | ------------------------------- |
-| Projects    | `project-proj/`   | `proj-` | `[number]-proj-[name]`      | Main development projects       |
-| Clones      | `clone-cln/`      | `cln-`  | `[number]-cln-[name]`       | Recreation of existing projects |
-| Learning    | `learning-lrn/`   | `lrn-`  | `[number]-lrn-[technology]` | Learning and practice projects  |
-| Experiments | `experiment-exp/` | `exp-`  | `[number]-exp-[name]`       | Testing ideas and concepts      |
-| Tools       | `tools-tool/`     | `tool-` | `[number]-tool-[name]`      | Useful tools and scripts        |
-| Templates   | `template-tpl/`   | `tpl-`  | `[number]-tpl-[name]`       | Reusable starter projects       |
+# Repository Structure
 
+Format: `[number]-[prefix]-[name]`, using lowercase kebab-case.
 
+| Category    | Root Folder       | Prefix  | Pattern                     | Description                        |
+| ----------- | ----------------- | ------- | --------------------------- | ---------------------------------- |
+| Projects    | `project-proj/`   | `proj-` | `[number]-proj-[name]`      | Main development projects          |
+| Clones      | `clone-cln/`      | `cln-`  | `[number]-cln-[name]`       | Recreation of existing projects    |
+| Learning    | `learning-lrn/`   | `lrn-`  | `[number]-lrn-[technology]` | Learning and practicing technology |
+| Experiments | `experiment-exp/` | `exp-`  | `[number]-exp-[name]`       | Testing ideas and concepts         |
+| Tools       | `tools-tool/`     | `tool-` | `[number]-tool-[name]`      | Useful tools and scripts           |
+| Templates   | `template-tpl/`   | `tpl-`  | `[number]-tpl-[name]`       | Reusable starter projects          |
 
+## Learning Types
 
-* **Projects** — Complete or ongoing applications and larger development projects.
+| Learning Type      | Root Folder     | Prefix     | Pattern                         | Brief Description                     |
+| ------------------ | --------------- | ---------- | ------------------------------- | ------------------------------------- |
+| Standard Learning  | `learning-lrn/` | `lrn-`     | `[number]-lrn-[technology]`     | Structured technology learning        |
+| Reference Learning | `learning-lrn/` | `ref-lrn-` | `[number]-ref-lrn-[technology]` | Commands, syntax, and quick reference |
 
-  Example: `01-proj-ecommerce` 
+---
+
+## Projects
 
 ### Root
 
@@ -31,7 +39,7 @@ project-proj/
 └── ...
 ```
 
-### Each Projects
+### Each Project
 
 ```text
 [number]-proj-[name]/
@@ -66,11 +74,9 @@ project-proj/
 └── ...
 ```
 
+---
 
-
-* **Clone** — Projects that recreate or imitate the design, features, or functionality of an existing website, application, or system.
-
-    Example: `01-clone-apple-store`
+## Clones
 
 ### Root
 
@@ -79,13 +85,13 @@ clone-cln/
 │
 ├── README.md
 │
-├── 01-apple-store/
-├── 02-netflix/
-├── 03-spotify/
+├── 01-cln-apple-store/
+├── 02-cln-netflix/
+├── 03-cln-spotify/
 └── ...
 ```
 
-### Each Clones
+### Each Clone
 
 ```text
 [number]-cln-[name]/
@@ -94,51 +100,43 @@ clone-cln/
 ├── LICENSE
 ├── .gitignore
 │
-├── docs/
-│   ├── overview.md
-│   ├── setup.md
-│   ├── features.md
-│   ├── reference.md
-│   └── screenshots/
-│
-├── src/
-│   ├── index.html
-│   │
-│   ├── assets/
-│   │   ├── images/
-│   │   ├── icons/
-│   │   ├── fonts/
-│   │   └── videos/
-│   │
-│   ├── css/
-│   │   ├── style.css
-│   │   └── responsive.css
-│   │
-│   └── js/
-│       ├── script.js
-│       └── modules/
-│
-└──  ...
+└── src/
+    ├── index.html
+    │
+    ├── assets/
+    │   ├── images/
+    │   ├── icons/
+    │   ├── fonts/
+    │   └── videos/
+    │
+    ├── css/
+    │   ├── style.css
+    │   └── responsive.css
+    │
+    └── js/
+        ├── script.js
+        └── modules/
 ```
 
+---
 
-
-* **Learning** — Projects created while learning or practicing a technology or concept.
-
-  Example: `01-lrn-javascript`
+## Learning
 
 ### Root
 
 ```text
-learn-lrn/
+learning-lrn/
 │
 ├── README.md
-├── terminologies-[technology].md
-├── design-pattern-[technology].md
 │
 ├── 01-lrn-javascript/
 ├── 02-lrn-css/
 ├── 03-lrn-html/
+│
+├── 01-ref-lrn-git/
+├── 02-ref-lrn-linux/
+├── 03-ref-lrn-github-cli/
+├── 04-ref-lrn-docker/
 └── ...
 ```
 
@@ -150,30 +148,38 @@ learn-lrn/
 ├── README.md
 │
 ├── docs/
-│   ├── 01-[topic].md
-│   ├── 02-[topic].md
-│   ├── 03-[topic].md
+│   ├── 01-[technology]-[concept].md
+│   ├── 02-[technology]-[concept].md
+│   ├── 03-[technology]-[concept].md
 │   └── ...
 │
-├── src/                    # Optional
+├── src/
 │   ├── css/
 │   │   └── style.css
 │   │
 │   └── js/
 │       └── script.js
 │
-├── 01-[topic]/
-├── 02-[topic]/
-├── 03-[topic]/
+├── 01-[technology]-[concept]/
+├── 02-[technology]-[concept]/
+├── 03-[technology]-[concept]/
 │
 └── ...
 ```
 
+### Each Reference Learning Project
 
+```text
+[number]-ref-lrn-[technology]/
+│
+├── README.md
+├── commands.md
+└── notes.md
+```
 
-* **Experiments** — Small tests, prototypes, and ideas used to explore a concept or technology.
+---
 
-  Example: `01-exp-api-testing`
+## Experiments
 
 ### Root
 
@@ -206,17 +212,16 @@ experiment-exp/
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
+│   │
 │   └── js/
 │       └── script.js
 │
 └── ...
 ```
 
+---
 
-
-* **Tools** — Useful utilities, scripts, or developer tools.
-
-  Example: `01-tool-image-converter`
+## Tools
 
 ### Root
 
@@ -234,7 +239,7 @@ tools-tool/
 ### Each Tool
 
 ```text
-01-tool-[name]/
+[number]-tool-[name]/
 │
 ├── README.md
 ├── LICENSE
@@ -249,17 +254,16 @@ tools-tool/
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
+│   │
 │   └── js/
 │       └── script.js
 │
 └── ...
 ```
 
+---
 
-
-* **Templates** — Reusable starter projects, layouts, components, or boilerplates.
-
-  Example: `01-tpl-portfolio-website`
+## Templates
 
 ### Root
 
@@ -286,3 +290,5 @@ template-tpl/
 │   └── script.js
 └── img/
 ```
+
+---
